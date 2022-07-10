@@ -1,0 +1,132 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    background-color: rgb(236, 226, 226);  
+    width: 100%;
+}
+
+#header{
+ margin-top: 0px; 
+ padding-top: 20px;  
+ display: flex;
+ background-color: rgb(236, 226, 226);
+ position: fixed;
+ overflow: hidden;
+ top: 0;
+ width: 98%;
+ margin-bottom: 0px;
+}
+
+#header-img{
+    float: left;
+    height: auto;
+}
+
+#nav-bar{
+    width: 100%;
+    margin: 0px 5% 0px 30%;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+
+}
+ 
+    
+}
+
+.flexy{
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    color: rgb(253, 95, 4);
+}
+
+.desc{
+    display: grid;
+    align-self: center;
+    
+}
+
+.desc p{
+    margin-top: -15px;
+    justify-content: center;
+    align-self: center;
+
+}
+
+#how-it-works{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+#video{
+    width: 650px;
+}
+
+
+/**Trombone plans Style**/
+
+#how-much-cost{
+    display: grid;
+    grid-template: auto/repeat(3, 300px);
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 40px;
+}
+
+.basic{
+   border: 1px solid rgb(24, 23, 23);
+}
+.basic h2{
+    width: auto;
+    height: 50px;
+    margin-top: 0px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+}
+
+.price ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.price li{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.copyright{
+    width: 50%;
+    margin: 80px auto 0px auto;
+    position: relative;
+    display: grid;
+    justify-content: flex-end;
+    background-color: silver;
+    height:140px;
+}
+
+.copyright ul{
+    list-style: none;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.copyright ul li{
+   width: 50px;
+}
+
+.copyright p{
+    border: 10 px solid black;
+    width: 110%;
+    margin-right: 20px;
+}
+
+
+
